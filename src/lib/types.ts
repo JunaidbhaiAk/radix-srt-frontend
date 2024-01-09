@@ -10,7 +10,7 @@ export type FileType = {
 export type SubTitleType = {
     start:string;
     end:string;
-    text:string;
+    text?:string;
 }
 
 export type DataContextType = {
